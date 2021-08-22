@@ -433,9 +433,10 @@ color: #777777;
 padding: 20px;
 margin: 0px;
 position:relative;
+flex: 1 1 auto;
 }
 .txtHead{
-    height:80%;
+    max-height: 50%;
     width:100%;
     text-align:center;
 }
@@ -447,7 +448,7 @@ position:relative;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    height:800px;
+    height: 1200px;
 }
 .skill-col {
     display:inline-flex;
@@ -459,12 +460,18 @@ position:relative;
     width: 30%;
     max-width:300px;
 }
+#bigq {
+    width:80%;
+}
 
 .tileBox{
-    width: 80%;
+    width: 90%;
+}
+#bigq-text {
+    margin-bottom: 20px;
 }
 .txtHead img {
-    max-width:100%
+    max-width:100%;
     max-height: 66px;
     display: block;
   margin-left: auto;
